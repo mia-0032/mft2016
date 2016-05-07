@@ -27,7 +27,7 @@
 <body>
 <div class="container-fluid my-header">
     <div class="row">
-        <div class="col-xs-6">
+        <div class="col-sm-4">
             <span class="dropdown">
                 <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                     <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
@@ -39,15 +39,15 @@
             </span>
             <a href="#">時計の温故知新</a>
         </div>
-        <div id="share" class="col-xs-6 social">
+        <div id="share" class="col-sm-8 social">
             <ul>
                 <!-- はてなブックマーク -->
                 <li class="share-hatena">
-                    <a href="http://b.hatena.ne.jp/add?mode=confirm&url=<?php the_permalink(); ?>&title=<?php the_title();?>" target="_blank">は</a>
+                    <a href="http://b.hatena.ne.jp/add?mode=confirm&url=<?php the_permalink(); ?>&title=<?php the_title();?>" target="_blank"><b>B!</b></a>
                 </li>
                 <!-- Facebook -->
                 <li class="share-facebook">
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>" target="_blank">F</a>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                 </li>
                 <!-- Twitter -->
                 <li class="share-twitter">
@@ -67,11 +67,11 @@
 </div>
 <div class="container my-content my-project">
     <div class="row">
-        <div class="col-sm-4 title-panel">
-            <div class="title">「時計の温故知新」</div>
+        <div class="col-xs-12 col-sm-4 title-panel">
+            <div class="title">時計の温故知新</div>
             <p>昔ながらの時計に現代の技術を加えて、新しい時計を作ってみようというプロジェクトです。</p>
         </div>
-        <div class="col-sm-8 member-panel">
+        <div class="col-xs-12 col-sm-8 member-panel">
             <big>メンバー</big>
             <div class="media">
                 <div class="media-left media-middle">
@@ -80,15 +80,15 @@
                 <div class="media-body">
                     <h4 class="media-heading">Mia</h4>
                     <p>Web系プログラマ。趣味は電子工作。MAKE:やニコニコ技術部で活動中。</p>
-                    <span class="url-list">
+                    <div>
                         <i class="fa fa-twitter" aria-hidden="true"></i>
                         <a href="https://twitter.com/mia_0032" target="_blank">@mia_0032 <small><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></small></a>
-                    </span>
-                    <span class="url-list">
+                    </div>
+                    <div>
                         <i class="fa fa-pencil-square" aria-hidden="true"></i>
                         <a href="http://mia-0032.hatenablog.jp/" target="_blank">http://mia-0032.hatenablog.jp/ <small><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></small>
                         </a>
-                    </span>
+                    </div>
                 </div>
             </div>
             <div class="media">
@@ -98,15 +98,15 @@
                 <div class="media-body">
                     <h4 class="media-heading">Mia</h4>
                     <p>Web系プログラマ。趣味は電子工作。MAKE:やニコニコ技術部で活動中。</p>
-                    <span class="url-list">
+                    <div>
                         <i class="fa fa-twitter" aria-hidden="true"></i>
                         <a href="https://twitter.com/mia_0032" target="_blank">@mia_0032 <small><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></small></a>
-                    </span>
-                    <span class="url-list">
+                    </div>
+                    <div>
                         <i class="fa fa-pencil-square" aria-hidden="true"></i>
                         <a href="http://mia-0032.hatenablog.jp/" target="_blank">http://mia-0032.hatenablog.jp/ <small><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></small>
                         </a>
-                    </span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -122,19 +122,30 @@
 </div>
 <div class="container my-content my-work">
     <div class="row">
-        <div class="col-md-12 title-panel">
+        <div class="col-xs-12 title-panel">
             <span class="title">LED日時計</span>
         </div>
-        <div class="col-md-4 detail-panel">
-            <div class="description-panel">
+        <div class="col-xs-12 description-panel">
+            <p>日時計をLEDで照らすことで夜でも使えるようにした作品です。コチコチという音が気持ち良い作品になりました。</p>
+        </div>
+        <div class="col-xs-12 col-md-4">
+            <div class="image-panel">
                 <img src="http://cdn-ak.f.st-hatena.com/images/fotolife/m/mia_0032/20160502/20160502202719.jpg" class="img-responsive">
-                <p>日時計をLEDで照らすことで夜でも使えるようにした作品です。コチコチという音が気持ち良い作品になりました。</p>
+            </div>
+            <div class="image-panel">
+                <img src="http://cdn-ak.f.st-hatena.com/images/fotolife/m/mia_0032/20160502/20160502202755.jpg" class="img-responsive">
             </div>
         </div>
-        <div class="col-md-8 detail-panel">
-            <div class="image-panel">
-                <iframe src="https://player.vimeo.com/video/165545077" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <div class="col-xs-12 col-md-8">
+            <div class="movie-panel">
+                <iframe src="https://player.vimeo.com/video/165545077" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
+        </div>
+        <div class="col-xs-12 description-panel">
+            <big>製作記事</big>
+            <ul>
+                <li><a href="http://mia-0032.hatenablog.jp/entry/sundial-prototype" target="_blank">LED日時計のプロトタイプを作成 - 工作とかプログラミングとか <small><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></small></a></li>
+            </ul>
         </div>
     </div>
 </div>
