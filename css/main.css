@@ -4,18 +4,19 @@ body {
 
 .my-header {
     background-color: #2196F3;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    box-shadow:0px 2px 7px rgba(0, 0, 0, 0.3);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    box-shadow:0px 3px 7px rgba(0, 0, 0, 0.3);
 }
 
 .my-header button {
     border: 1px #BBDEFB solid;
 }
 
-.my-header a {
+.my-header .title {
     color: #ffffff;
-    padding: 6px 12px;
+    font-size: large;
+    padding-left: 0.8em;
     text-decoration: none;
 }
 
@@ -25,11 +26,12 @@ body {
 
 .my-content-title {
     color: #757575;
+    margin-top: 0.5em;
 }
 
 a.anchor {
-    margin-left: -1em;
-    color: rgba(0, 0, 0, 0.0);
+    margin-left: -0.5em;
+    color: rgba(0, 0, 0, 0.1);
     -webkit-transition-duration: .1s;
     transition-duration: .1s;
 }
@@ -40,7 +42,6 @@ a.anchor:hover {
 }
 
 .my-content {
-    margin-bottom: 20px;
     box-shadow:0px 0px 7px rgba(0, 0, 0, 0.3);
 }
 
@@ -50,18 +51,18 @@ a.anchor:hover {
 
 .my-project .title-panel {
     color: #ffffff;
-    padding: 20px;
+    padding: 2em;
     text-align: center;
 }
 
 .my-project .member-panel {
-    padding: 20px;
+    padding: 1.5em;
     background-color: #ffffff;
 }
 
 .my-project .title {
     font-size: xx-large;
-    margin-bottom: 20px;
+    margin-bottom: 1em;
 }
 
 .my-work {
@@ -103,11 +104,11 @@ a.anchor:hover {
 .my-footer {
     background-color: #2196F3;
     color: #ffffff;
-    box-shadow:0px -2px 7px rgba(0, 0, 0, 0.3);
+    box-shadow:0px -1px 7px rgba(0, 0, 0, 0.3);
 }
 
 .my-footer .copyright {
     text-align: center;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
