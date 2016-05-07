@@ -1,17 +1,152 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>時計の温故知新</title>
+
+    <!-- Bootstrap Honoka-->
+    <link href="bower_components/Honoka/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- font -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+
+    <!-- my css -->
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/social.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
-    <div class="container">
-        Test!
+<div class="container-fluid my-header">
+    <div class="row">
+        <div class="col-xs-6">
+            <span class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="#project">プロジェクト</a></li>
+                    <li><a href="#work">作品</a></li>
+                </ul>
+            </span>
+            <a href="#">時計の温故知新</a>
+        </div>
+        <div id="share" class="col-xs-6 social">
+            <ul>
+                <!-- はてなブックマーク -->
+                <li class="share-hatena">
+                    <a href="http://b.hatena.ne.jp/add?mode=confirm&url=<?php the_permalink(); ?>&title=<?php the_title();?>" target="_blank">は</a>
+                </li>
+                <!-- Facebook -->
+                <li class="share-facebook">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>" target="_blank">F</a>
+                </li>
+                <!-- Twitter -->
+                <li class="share-twitter">
+                    <a href="https://twitter.com/intent/tweet" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </div>
     </div>
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+</div>
+<!-- プロジェクト紹介 -->
+<div class="container my-content-title">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2><a name="project" class="anchor"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a> プロジェクト</h2>
+        </div>
+    </div>
+</div>
+<div class="container my-content my-project">
+    <div class="row">
+        <div class="col-sm-4 title-panel">
+            <div class="title">「時計の温故知新」</div>
+            <p>昔ながらの時計に現代の技術を加えて、新しい時計を作ってみようというプロジェクトです。</p>
+        </div>
+        <div class="col-sm-8 member-panel">
+            <big>メンバー</big>
+            <div class="media">
+                <div class="media-left media-middle">
+                    <img class="media-object" src="http://cdn1.www.st-hatena.com/users/mi/mia_0032/profile.gif">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Mia</h4>
+                    <p>Web系プログラマ。趣味は電子工作。MAKE:やニコニコ技術部で活動中。</p>
+                    <span class="url-list">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <a href="https://twitter.com/mia_0032" target="_blank">@mia_0032 <small><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></small></a>
+                    </span>
+                    <span class="url-list">
+                        <i class="fa fa-pencil-square" aria-hidden="true"></i>
+                        <a href="http://mia-0032.hatenablog.jp/" target="_blank">http://mia-0032.hatenablog.jp/ <small><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></small>
+                        </a>
+                    </span>
+                </div>
+            </div>
+            <div class="media">
+                <div class="media-left media-middle">
+                    <img class="media-object" src="http://cdn1.www.st-hatena.com/users/mi/mia_0032/profile.gif">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Mia</h4>
+                    <p>Web系プログラマ。趣味は電子工作。MAKE:やニコニコ技術部で活動中。</p>
+                    <span class="url-list">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <a href="https://twitter.com/mia_0032" target="_blank">@mia_0032 <small><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></small></a>
+                    </span>
+                    <span class="url-list">
+                        <i class="fa fa-pencil-square" aria-hidden="true"></i>
+                        <a href="http://mia-0032.hatenablog.jp/" target="_blank">http://mia-0032.hatenablog.jp/ <small><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></small>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 作品紹介 -->
+<div class="container my-content-title">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2><a name="work" class="anchor"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a> 作品</h2>
+        </div>
+    </div>
+</div>
+<div class="container my-content my-work">
+    <div class="row">
+        <div class="col-md-12 title-panel">
+            <span class="title">LED日時計</span>
+        </div>
+        <div class="col-md-4 detail-panel">
+            <div class="description-panel">
+                <img src="http://cdn-ak.f.st-hatena.com/images/fotolife/m/mia_0032/20160502/20160502202719.jpg" class="img-responsive">
+                <p>日時計をLEDで照らすことで夜でも使えるようにした作品です。コチコチという音が気持ち良い作品になりました。</p>
+            </div>
+        </div>
+        <div class="col-md-8 detail-panel">
+            <div class="image-panel">
+                <iframe src="https://player.vimeo.com/video/165545077" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer -->
+<div class="container-fluid my-footer">
+    <div class="row">
+        <div class="col-xs-12 copyright">
+            <small><span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span> 2016 時計の温故知新プロジェクト</small>
+        </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="bower_components/Honoka/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
