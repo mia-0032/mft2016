@@ -25,7 +25,8 @@
     <![endif]-->
 </head>
 <body>
-<div class="container-fluid my-header">
+<!-- header -->
+<header id="header" class="container-fluid">
     <div class="row">
         <div class="col-sm-4">
             <span class="dropdown">
@@ -37,13 +38,13 @@
                     <li><a href="#work">作品</a></li>
                 </ul>
             </span>
-            <a href="#" class="title">時計の温故知新</a>
+            <a href="#"><h1>時計の温故知新</h1></a>
         </div>
-        <div id="share" class="col-sm-8 social">
+        <div id="share" class="col-sm-8">
             <ul>
                 <!-- はてなブックマーク -->
                 <li class="share-hatena">
-                    <a href="http://b.hatena.ne.jp/add?mode=confirm&url=<?php the_permalink(); ?>&title=<?php the_title();?>" target="_blank"><b>B!</b></a>
+                    <a href="http://b.hatena.ne.jp/add?mode=confirm&url=<?php the_permalink(); ?>&title=<?php the_title();?>" target="_blank">B!</a>
                 </li>
                 <!-- Facebook -->
                 <li class="share-facebook">
@@ -56,7 +57,7 @@
             </ul>
         </div>
     </div>
-</div>
+</header>
 <!-- プロジェクト紹介 -->
 <div class="container-fluid my-content-title">
     <div class="row">
@@ -68,17 +69,17 @@
 <div class="container-fluid my-content my-project">
     <div class="row">
         <div class="col-xs-12 col-sm-4 title-panel">
-            <div class="title">時計の温故知新</div>
+            <h3>時計の温故知新</h3>
             <p>昔ながらの時計に現代の技術を加えて、新しい時計を作ってみようというプロジェクトです。</p>
         </div>
         <div class="col-xs-12 col-sm-8 member-panel">
-            <big>メンバー</big>
+            <h4>メンバー</h4>
             <div class="media">
                 <div class="media-left media-middle">
                     <img class="media-object" src="http://cdn1.www.st-hatena.com/users/mi/mia_0032/profile.gif">
                 </div>
                 <div class="media-body">
-                    <h4 class="media-heading">Mia</h4>
+                    <h5 class="media-heading">Mia</h5>
                     <p>Web系プログラマ。趣味は電子工作。MAKE:やニコニコ技術部で活動中。</p>
                     <div>
                         <i class="fa fa-twitter" aria-hidden="true"></i>
@@ -96,7 +97,7 @@
                     <img class="media-object" src="http://cdn1.www.st-hatena.com/users/mi/mia_0032/profile.gif">
                 </div>
                 <div class="media-body">
-                    <h4 class="media-heading">Mia</h4>
+                    <h5 class="media-heading">Mia</h5>
                     <p>Web系プログラマ。趣味は電子工作。MAKE:やニコニコ技術部で活動中。</p>
                     <div>
                         <i class="fa fa-twitter" aria-hidden="true"></i>
@@ -123,7 +124,7 @@
 <div class="container-fluid my-content my-work">
     <div class="row">
         <div class="col-xs-12 title-panel">
-            <span class="title">LED日時計</span>
+            <h3>LED日時計</h3>
         </div>
         <div class="col-xs-12 description-panel">
             <p>日時計をLEDで照らすことで夜でも使えるようにした作品です。コチコチという音が気持ち良い作品になりました。</p>
@@ -142,7 +143,7 @@
             </div>
         </div>
         <div class="col-xs-12 description-panel">
-            <big>製作記事</big>
+            <h4>製作記事</h4>
             <ul>
                 <li><a href="http://mia-0032.hatenablog.jp/entry/sundial-prototype" target="_blank">LED日時計のプロトタイプを作成 - 工作とかプログラミングとか <small><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></small></a></li>
             </ul>
@@ -150,13 +151,13 @@
     </div>
 </div>
 <!-- footer -->
-<div class="container-fluid my-footer">
+<footer id="footer" class="container-fluid">
     <div class="row">
-        <div class="col-xs-12 copyright">
-            <small><span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span> 2016 時計の温故知新プロジェクト</small>
+        <div id="copyright" class="col-xs-12">
+            <span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span> 2016 時計の温故知新プロジェクト
         </div>
     </div>
-</div>
+</footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="bower_components/Honoka/dist/js/bootstrap.min.js"></script>
 </body>

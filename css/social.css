@@ -49,6 +49,7 @@
 
 #share li.share-hatena{
     background:#2c6ebd;
+    font-weight: 900;
 }
 #share li.share-hatena:hover{
     background:#4888d4;

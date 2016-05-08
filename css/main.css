@@ -2,26 +2,23 @@ body {
     background-color: #FCFCFC;
 }
 
-.my-header {
+#header {
     background-color: #2196F3;
     padding-top: 1em;
     padding-bottom: 1em;
     box-shadow:0px 3px 7px rgba(0, 0, 0, 0.3);
 }
 
-.my-header button {
+#header button {
     border: 1px #BBDEFB solid;
 }
 
-.my-header .title {
+#header h1 {
     color: #ffffff;
     font-size: large;
     padding-left: 0.8em;
     text-decoration: none;
-}
-
-.my-header .social {
-    text-align: right;
+    display: inline;
 }
 
 .my-content-title {
@@ -30,7 +27,7 @@ body {
 }
 
 a.anchor {
-    margin-left: -0.5em;
+    margin-left: -0.4em;
     color: rgba(0, 0, 0, 0.1);
     -webkit-transition-duration: .1s;
     transition-duration: .1s;
@@ -55,14 +52,18 @@ a.anchor:hover {
     text-align: center;
 }
 
+.my-project .title-panel h3 {
+    font-size: xx-large;
+    margin-bottom: 1em;
+}
+
 .my-project .member-panel {
     padding: 1.5em;
     background-color: #ffffff;
 }
 
-.my-project .title {
-    font-size: xx-large;
-    margin-bottom: 1em;
+.my-project .member-panel .title {
+    font-size: large;
 }
 
 .my-work {
@@ -72,18 +73,16 @@ a.anchor:hover {
 .my-work .title-panel {
     background-color: #FF9800;
     color: #ffffff;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
+    padding: 1em;
+}
+
+.my-work .title-panel h3 {
     font-size: xx-large;
+    margin: 0px;
 }
 
 .my-work .description-panel {
-    padding: 20px;
-}
-
-.my-work .detail-panel p {
-    margin-bottom: 0px;
+    padding: 1em;
 }
 
 .my-work .image-panel {
@@ -101,14 +100,15 @@ a.anchor:hover {
     margin-bottom: 10px;
 }
 
-.my-footer {
+#footer {
     background-color: #2196F3;
     color: #ffffff;
     box-shadow:0px -1px 7px rgba(0, 0, 0, 0.3);
 }
 
-.my-footer .copyright {
+#copyright {
     text-align: center;
     padding-top: 1em;
     padding-bottom: 1em;
+    font-size: small;
 }
